@@ -42,7 +42,6 @@
     "vsch/laravel-translation-manager": "^2.5",
     "laravel/horizon": "^1.2",
     "fideloper/proxy": "^4.0",
-    "chumper/zipper": "1.0.x"
   },
   "require-dev": {
     "gidkom/ms-translator": "dev-master",

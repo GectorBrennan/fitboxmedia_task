@@ -40,14 +40,9 @@ LABEL maintainer="Mahmoud Zalt <mahmoud@zalt.me>"
 #   - INSTALL_ZIP_ARCHIVE=true
 #
 
-
 ###########################################################################
 # SOAP:
 ###########################################################################
-
-# Install Composer
-RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
-RUN composer --version
 
 ARG INSTALL_SOAP=false
 
