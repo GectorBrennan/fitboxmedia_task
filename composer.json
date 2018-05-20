@@ -1,12 +1,12 @@
 {
-  "name": "affninja/backend.affninja",
-  "description": "Api for affninja.com",
+  "name": "API task",
+  "description": "Api",
   "license": "MIT",
   "type": "project",
   "authors": [
     {
-      "name": "Alexander Tychko",
-      "email": "programmerpwnz@gmail.com"
+      "name": "Gector Brennan",
+      "email": "gectorgrundy@gmail.com"
     }
   ],
   "require": {
