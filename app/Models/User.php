@@ -38,10 +38,10 @@ class User extends AbstractEntity implements
 
     protected $table = 'users';
     protected $fillable = [
-        'email', 'nickname', 'role', 'locale', 'password',
+        'email', 'role', 'password',
     ];
     protected $hidden = [
-        'id',  'password', 'remember_token', 'deleted_at', 'updated_at', 'pivot'
+        'id', 'password', 'remember_token', 'deleted_at', 'updated_at', 'pivot'
     ];
     protected $dates = ['created_at', 'updated_at', 'deleted_at'];
     // Need for profile method
@@ -54,7 +54,6 @@ class User extends AbstractEntity implements
 
     public function setPasswordAttribute(string $value)
     {
-        // Crutch because of ResetsPasswords@resetPassword
         if (!starts_with($value, '$2y$10$')) {
             $value = bcrypt($value);
         }

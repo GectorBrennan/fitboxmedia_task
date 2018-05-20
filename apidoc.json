@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Description",
   "title": "API docs",
-  "url": "http://api.affninja.local",
+  "url": "http://api.local",
   "template": {
     "forceLanguage": "en",
     "withCompare": false,
