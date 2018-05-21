@@ -41,7 +41,7 @@
     "sunra/php-simple-html-dom-parser": "^1.5",
     "vsch/laravel-translation-manager": "^2.5",
     "laravel/horizon": "^1.2",
-    "fideloper/proxy": "^4.0",
+    "fideloper/proxy": "^4.0"
   },
   "require-dev": {
     "gidkom/ms-translator": "dev-master",
